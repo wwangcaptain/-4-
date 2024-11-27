@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/workspace/Knowledge_distillation_Pruning_Yolov5-master/train_dil.py", line 588, in <module>
+    main(opt)
+  File "/workspace/Knowledge_distillation_Pruning_Yolov5-master/train_dil.py", line 487, in main
+    train_KD(opt.hyp, opt, device, callbacks)
+  File "/workspace/Knowledge_distillation_Pruning_Yolov5-master/train_dil.py", line 99, in train_KD
+    s_ckpt = torch.load(s_weights, map_location=device)
+  File "/root/miniforge3/lib/python3.10/site-packages/torch/serialization.py", line 809, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/root/miniforge3/lib/python3.10/site-packages/torch/serialization.py", line 1172, in _load
+    result = unpickler.load()
+  File "/root/miniforge3/lib/python3.10/site-packages/torch/serialization.py", line 1165, in find_class
+    return super().find_class(mod_name, name)
+AttributeError: Can't get attribute 'DetectionModel' on <module 'models.yolo' from '/workspace/Knowledge_distillation_Pruning_Yolov5-master/models/yolo.py'>

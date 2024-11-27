@@ -1,0 +1,138 @@
+_wandb:
+    value:
+        cli_version: 0.18.7
+        m: []
+        python_version: 3.10.11
+        t:
+            "1":
+                - 1
+                - 41
+                - 55
+            "2":
+                - 1
+                - 41
+                - 55
+            "3":
+                - 13
+                - 16
+                - 23
+                - 55
+            "4": 3.10.11
+            "5": 0.18.7
+            "8":
+                - 5
+            "12": 0.18.7
+            "13": linux-x86_64
+adam:
+    value: false
+artifact_alias:
+    value: latest
+batch_size:
+    value: 16
+bbox_interval:
+    value: -1
+bucket:
+    value: ""
+cache:
+    value: null
+data:
+    value: /workspace/DATASET_ALL_PICS_WITH_FLIP_AND_VAGUE/dataset1.yaml
+data_dict:
+    value:
+        names:
+            - "1"
+        nc: 1
+        train: /workspace/DATASET_ALL_PICS_WITH_FLIP_AND_VAGUE/images/train
+        val: /workspace/DATASET_ALL_PICS_WITH_FLIP_AND_VAGUE/images/val
+device:
+    value: "0"
+entity:
+    value: null
+epochs:
+    value: 300
+evolve:
+    value: null
+exist_ok:
+    value: false
+freeze:
+    value: 0
+hyp:
+    value:
+        anchor_t: 4
+        box: 0.05
+        cls: 0.5
+        cls_pw: 1
+        copy_paste: 0
+        degrees: 0
+        fl_gamma: 0
+        fliplr: 0.5
+        flipud: 0
+        hsv_h: 0.015
+        hsv_s: 0.7
+        hsv_v: 0.4
+        iou_t: 0.2
+        lr0: 0.01
+        lrf: 0.1
+        mixup: 0
+        momentum: 0.937
+        mosaic: 1
+        obj: 1
+        obj_pw: 1
+        perspective: 0
+        scale: 0.5
+        shear: 0
+        translate: 0.1
+        warmup_bias_lr: 0.1
+        warmup_epochs: 3
+        warmup_momentum: 0.8
+        weight_decay: 0.0005
+image_weights:
+    value: false
+imgsz:
+    value: 640
+kd:
+    value: true
+label_smoothing:
+    value: 0
+linear_lr:
+    value: false
+local_rank:
+    value: -1
+multi_scale:
+    value: false
+name:
+    value: exp_kd
+noautoanchor:
+    value: false
+nosave:
+    value: false
+noval:
+    value: false
+patience:
+    value: 100
+project:
+    value: /workspace/Knowledge_distillation_Pruning_Yolov5-master/runs/train
+quad:
+    value: false
+rect:
+    value: false
+resume:
+    value: false
+s_weights:
+    value: /workspace/yolov5/pruned_model.pt
+save_dir:
+    value: /workspace/Knowledge_distillation_Pruning_Yolov5-master/runs/train/exp_kd
+save_period:
+    value: -1
+single_cls:
+    value: false
+sync_bn:
+    value: false
+t_cfg:
+    value: models/yolov5s.yaml
+t_weights:
+    value: /workspace/yolov5/original.pt
+upload_dataset:
+    value: false
+workers:
+    value: 4

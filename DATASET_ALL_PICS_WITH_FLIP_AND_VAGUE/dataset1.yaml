@@ -1,0 +1,4 @@
+train: /workspace/DATASET_ALL_PICS_WITH_FLIP_AND_VAGUE/images/train
+val: /workspace/DATASET_ALL_PICS_WITH_FLIP_AND_VAGUE/images/val
+nc: 1
+names: ['1']

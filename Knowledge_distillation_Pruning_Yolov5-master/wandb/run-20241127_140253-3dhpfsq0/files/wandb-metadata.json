@@ -1,0 +1,50 @@
+{
+  "os": "Linux-5.4.0-166-generic-x86_64-with-glibc2.31",
+  "python": "3.10.11",
+  "startedAt": "2024-11-27T14:02:53.299113Z",
+  "args": [
+    "--t_weights",
+    "/workspace/yolov5/original.pt",
+    "--s_weights",
+    "/workspace/yolov5/pruned_model.pt",
+    "--data",
+    "/workspace/DATASET_ALL_PICS_WITH_FLIP_AND_VAGUE/dataset1.yaml",
+    "--batch-size",
+    "16",
+    "--kd"
+  ],
+  "program": "/workspace/Knowledge_distillation_Pruning_Yolov5-master/train_dil.py",
+  "codePath": "train_dil.py",
+  "email": "wangwang092105@gmail.com",
+  "root": "/workspace/Knowledge_distillation_Pruning_Yolov5-master",
+  "host": "VM-0-238-ubuntu",
+  "username": "root",
+  "executable": "/root/miniforge3/bin/python",
+  "codePathLocal": "train_dil.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "gpu": "Tesla T4",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "52521566208",
+      "used": "20500627456"
+    }
+  },
+  "memory": {
+    "total": "32853893120"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 8
+  },
+  "gpu_nvidia": [
+    {
+      "name": "Tesla T4",
+      "memoryTotal": "16106127360",
+      "cudaCores": 2560,
+      "architecture": "Turing"
+    }
+  ],
+  "cudaVersion": "12.0"
+}
